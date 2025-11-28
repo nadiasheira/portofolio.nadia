@@ -1,0 +1,31 @@
+.jumbotron {
+	padding-top: 2rem 1rem;
+	background-color: #535b73;
+	height: 130vh;
+	position: relative;
+}
+
+.wave1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#projects {
+	background-color: #92a0b5;
+}
+
+section {
+	padding-top: 5rem;
+}
+
+/* Media Query ketika dibuka di mobile */
+@media (max-width: 576px) {
+	.btn-github {
+		width: 90%;
+	}
+
+	.navbar {
+		background-color: rgb(8, 2, 2) !important;
+	}
+}
